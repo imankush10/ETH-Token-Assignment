@@ -48,6 +48,7 @@ contract MyToken {
             balances[_addr]-=_value;
         } else{
             revert("Insufficient balance");
+        }
     }
 }
 ```
